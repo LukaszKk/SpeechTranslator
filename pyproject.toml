@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speechtranslatorai"
+version = "0.1.0"
+description = ""
+authors = ["Łukasz Kuk <lukasz010420@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+gtts = "2.5.0"
+SpeechRecognition = "3.10.1"
+pipwin = "0.5.2"
+PyAudio = "0.2.14"
+setuptools = "69.0.3"
+googletrans = "4.0.0rc1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
